@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* Create a header with a black background and some padding */
+.header-task {
+  overflow: hidden;
+  background-color: #454545;
+  color: #fefefe;
+  padding: 20px 10px;
+
+  /*position the text in the center of the header*/
+  text-align: center;
+  margin-top: 200px;
+  /*aling the widh of the header-task to thw widht of video-player*/
+  width: 50%;
+
+}
+
+
+/* create a div that contains all the page content */
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+}
+
+/*make a div for the video player*/
+.video-player {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+  background-color: #989898;
+  width: 50%;
+}
+
+/* make a div to type a message */
+.message {
+  background-color: #b9b90b;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
+  font-size: large;
+
+}
+
+/*create a header for the all the page content*/
+.header-content {
+  background-color: #ebebeb;
+  color: #000000;
+  padding: 20px 10px;
+  text-align: center;
+  /* make that the width of the header is the same as the width of the content */
+  width: 100%;
+  /* make the header to always show in the page */
+  position: fixed;
+  top: 0;
+
+
+}
+
+
